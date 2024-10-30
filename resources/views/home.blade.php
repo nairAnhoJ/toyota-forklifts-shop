@@ -35,52 +35,52 @@
     <div class="w-full py-5">
         <div class="w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-items-center gap-5">
             <a href="#" class="w-80 h-52 border overflow-hidden relative">
-                <div class="z-50 text-white font-semibold relative w-1/2 h-full text-left p-7">
+                <div class="z-50 text-white font-bold relative w-full h-full text-left p-8 text-lg">
                     <p>Forklifts and</p>
                     <p>Trucks</p>
-                    <div class="flex mt-2 text-sm items-center justify-start gap-x-1">
+                    {{-- <div class="flex mt-2 text-sm items-center justify-start gap-x-1">
                         <p>View</p>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 -960 960 960" fill="currentColor">
                             <path d="m700-300-57-56 84-84H120v-80h607l-83-84 57-56 179 180-180 180Z"/>
                         </svg>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="w-[200%] h-[200%] bg-red-700/90 absolute -rotate-45 -top-full -left-full z-40"></div>
                 <div class="w-full h-full absolute top-0 left-0 flex items-center justify-center">
                     <img src="{{ asset('storage/images/forklifts-and-trucks.jpg') }}" alt="" class="relative z-30">
                 </div>
             </a>
-            <div class="w-80 h-52 border overflow-hidden relative">
-                <div class="z-50 text-white font-semibold relative w-1/2 h-full text-left p-7">
+            <a href="#" class="w-80 h-52 border overflow-hidden relative">
+                <div class="z-50 text-white font-bold relative w-full h-full text-left p-8 text-lg">
                     <p>Services</p>
-                    <div class="flex mt-2 text-sm items-center justify-start gap-x-1">
+                    {{-- <div class="flex mt-2 text-sm items-center justify-start gap-x-1">
                         <p>View</p>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 -960 960 960" fill="currentColor">
                             <path d="m700-300-57-56 84-84H120v-80h607l-83-84 57-56 179 180-180 180Z"/>
                         </svg>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="w-[190%] h-[190%] bg-red-700/90 absolute -rotate-45 -top-full -left-full z-40"></div>
                 <div class="w-full h-full absolute top-0 left-0 flex items-center justify-center">
                     <img src="{{ asset('storage/images/services.jpg') }}" alt="" class="h-full relative z-30">
                 </div>
-            </div>
-            <div class="w-80 h-52 border overflow-hidden relative lg:col-span-2 xl:col-span-1">
-                <div class="z-50 text-white font-semibold relative w-1/2 h-full text-left p-7">
+            </a>
+            <a href="#" class="w-80 h-52 border overflow-hidden relative lg:col-span-2 xl:col-span-1">
+                <div class="z-50 text-white font-bold relative w-full h-full text-left p-8 text-lg">
                     <p>Genuine</p>
                     <p>Parts</p>
-                    <div class="flex mt-2 text-sm items-center justify-start gap-x-1">
+                    {{-- <div class="flex mt-2 text-sm items-center justify-start gap-x-1">
                         <p>View</p>
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 -960 960 960" fill="currentColor">
                             <path d="m700-300-57-56 84-84H120v-80h607l-83-84 57-56 179 180-180 180Z"/>
                         </svg>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="w-[190%] h-[190%] bg-red-700/90 absolute -rotate-45 -top-full -left-full z-40"></div>
                 <div class="w-full h-full absolute top-0 left-0 flex items-center justify-center">
                     <img src="{{ asset('storage/images/genuine-parts.jpg') }}" alt="" class="w-full relative z-30">
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </div>
